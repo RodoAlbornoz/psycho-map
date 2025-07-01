@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { NetworkSubjectsComponent } from './network-subjects/network-subjects';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
+  imports: [NetworkSubjectsComponent],
+  template: `<app-home></app-home>`,
+  standalone: true,
   styleUrl: './app.css'
 })
 export class App {
