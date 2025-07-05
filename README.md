@@ -1,1 +1,1 @@
-# psycho-map
+# PsychoMap
