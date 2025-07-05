@@ -4,7 +4,7 @@ import { NetworkSubjectsComponent } from './network-subjects/network-subjects';
 @Component({
   selector: 'app-root',
   imports: [NetworkSubjectsComponent],
-  template: `<app-home></app-home>`,
+  template: `<app-network-subjects></app-network-subjects>`,
   standalone: true,
   styleUrl: './app.css'
 })
