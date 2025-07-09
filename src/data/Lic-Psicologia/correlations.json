@@ -1,0 +1,235 @@
+{
+    "cbc": [
+        {
+            "materia": "Introduccion al pensamiento cientifico",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Introduccion al conocimiento de la sociedad y el estado",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Psicologia",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Biologia",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Semiologia",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Matematica",
+            "correlativas": null
+        }
+    ],
+
+    "ciclo_formacion_general": [
+        {
+            "materia": "Psicologia general",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Estadistica",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Psicologia social",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Psicologia y epistemología genetica",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Psicoanalisis Freud",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Neurofisiologia",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Historia de la psicologia",
+            "correlativas": [
+                "Psicologia general",
+                "Psicologia social"
+            ]
+        },
+
+        {
+            "materia": "Metodologia de la investigacion",
+            "correlativas": [
+                "Psicologia general",
+                "Estadistica"
+            ]
+        },
+
+        {
+            "materia": "Salud publica y salud mental",
+            "correlativas": [
+                "Psicologia social",
+                "Metodologia de la investigacion"
+            ]
+        },
+
+        {
+            "materia": "Teoria y tecnica de grupos",
+            "correlativas": [
+                "Psicologia social",
+                "Psicoanalisis Freud"
+            ]
+        },
+
+        {
+            "materia": "Psicologia evolutiva niñez",
+            "correlativas": [
+                "Psicoanalisis Freud",
+                "Psicologia y epistemologia genetica"
+            ]
+        },
+
+        {
+            "materia": "Psicologia evolutiva adolescencia",
+            "correlativas": [
+                "Psicologia evolutiva niñez",
+                "Psicoanalisis Freud",
+                "Psicologia y epistemologia genetica"
+            ]
+        },
+
+        {
+            "materia": "Psicopatologia",
+            "correlativas": [
+                "Neurofisiologia", 
+                "Psicologia evolutiva adolescencia"
+            ]
+        },
+
+        {
+            "materia": "Teoria y tecnica de exploracion y diagnostico psicologico. Modulo I",
+            "correlativas": [
+                "Psicologia evolutiva adolescencia",
+                "Psicopatologia"
+            ]
+        },
+
+        {
+            "materia": "Teoria y tecnica de exploracion y diagnostico psicologico. Modulo II",
+            "correlativas": [
+                "Psicologia evolutiva adolescencia",
+                "Psicopatologia",
+                "Teoria y tecnica de exploracion y diagnostico psicologico. Modulo I"
+            ]
+        }
+    ],
+
+    "requisito_idioma": [
+        {
+            "materia": "Ingles o Frances. Modulo I",
+            "correlativas": [
+                "Psicologia general",
+                "Psicoanalisis Freud"
+            ]
+        },
+
+        {
+            "materia": "Ingles o Frances. Modulo II",
+            "correlativas": [
+                "Ingles o Frances. Modulo I",
+                "Psicologia general",
+                "Psicoanalisis Freud"
+            ]
+        }
+    ],
+
+    "ciclo_formacion_profesional": [
+        {
+            "materia": "Psicologia etica y derechos humanos ",
+            "correlativas": [
+                "Psicologia social",
+                "Historia de la psicologia"
+            ]
+        },
+
+        {
+            "materia": "Psicologia institucional",
+            "correlativas": [
+                "Teoria y Tecnica de grupos"
+            ]
+        },
+
+        {
+            "materia": "Psicologia educacional",
+            "correlativas": [
+                "Salud publica y salud mental",
+                "Psicologia evolutiva adolescencia"
+            ]
+        },
+
+        {
+            "materia": "Psicologia del trabajo",
+            "correlativas": [
+                "Salud publica y salud mental",
+                "Teoria y tecnica de grupos",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo II"
+            ]
+        },
+
+        {
+            "materia": "Clinica psicologica y psicoterapias: Clinica de adultos",
+            "correlativas": [
+                "Psicopatología",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo I",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo II"
+            ]
+        },
+
+        {
+            "materia": "Psicologia juridica",
+            "correlativas": [
+                "Psicopatologia",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo I",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo II"
+            ]
+        },
+
+        {
+            "materia": "Clinica psicologica y psicoterapias: Psicoterapias, Emergencias e Interconsultas",
+            "correlativas": [
+                "Psicopatología",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo I",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo II"
+            ]
+        },
+
+        {
+            "materia": "Practica profesional y de investigacion",
+            "correlativas": [
+                "Salud publica y salud mental"
+            ]
+        }
+    ],
+
+    "optativas": [
+        {
+
+        },
+        {
+
+        }
+    ]
+}
