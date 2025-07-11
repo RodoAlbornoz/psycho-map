@@ -31,7 +31,7 @@
         }
     ],
 
-    "correlativasCarrera": [
+    "carrera": [
         {
             "materia": "Musicoterapia I",
             "correlativas": null 
@@ -198,6 +198,24 @@
                 "Técnica vocal II",
                 "Taller de instrumentos de percusión"
             ]
+        }
+    ],
+
+    "requisitoIdioma": [
+        {
+            "materia": "Inglés o Francés. Módulo I",
+            "correlativas": [
+                "Musicoterapia I"
+            ]
+        }
+    ],
+
+    "optativas": [
+        {
+
+        },
+        {
+
         }
     ]
 }

@@ -31,7 +31,7 @@
         }
     ],
 
-    "materiasCarrera": [
+    "carrera": [
         {
             "materia": "Teoría y Técnica de Terapia Ocupacional I",
             "codigos": [
@@ -237,6 +237,23 @@
             ],
             "duracion": null,
             "cargaHorariaSemanal": null
+        }
+    ],
+
+    "requisitoIdioma": [
+        {
+            "materia": "Inglés o Francés. Módulo I",
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 4
+        }
+    ],
+
+    "optativas": [
+        {
+
+        },
+        {
+
         }
     ]
 }

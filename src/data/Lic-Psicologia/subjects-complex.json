@@ -31,7 +31,7 @@
         }
     ],
 
-    "materiasCarrera": [
+    "cicloGeneral": [
         {
             "materia": "Psicologia general",
             "codigos": [
@@ -181,6 +181,107 @@
             ],
             "duracion": "Cuatrimestral",
             "cargaHorariaSemanal": 6
+        }
+    ],
+
+    "requisitoIdioma": [
+        {
+            "materia": "Ingles o Frances. Modulo I",
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 4
+        },
+
+        {
+            "materia": "Ingles o Frances. Modulo II",
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 4
+        }
+    ],
+
+    "cicloProfesional": [
+        {
+            "materia": "Psicologia etica y derechos humanos",
+            "codigos": [
+                71,
+                723
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 4
+        },
+
+        {
+            "materia": "Psicologia institucional",
+            "codigos": [
+                39,
+                144
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 6
+        },
+
+        {
+            "materia": "Psicologia educacional",
+            "codigos": [
+                41,
+                83
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 6
+        },
+
+        {
+            "materia": "Psicologia del trabajo",
+            "codigos": [
+                40,
+                724
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 4
+        },
+
+        {
+            "materia": "Clinica psicologica y psicoterapias: Clinica de adultos",
+            "codigos": [
+                114,
+                115
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 6
+        },
+
+        {
+            "materia": "Psicologia juridica",
+            "codigos": [
+                768,
+                769
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 4
+        },
+
+        {
+            "materia": "Clinica psicologica y psicoterapias: Psicoterapias, Emergencias e Interconsultas",
+            "codigos": [
+                70,
+                634
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 4
+        },
+
+        {
+            "materia": "Practica profesional y de investigacion",
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 6
+        }
+    ],
+
+    "optativas": [
+        {
+
+        },
+        {
+
         }
     ]
 }

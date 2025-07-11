@@ -31,7 +31,7 @@
         }
     ],
 
-    "materiasCarrera": [
+    "cicloFormacionGeneral": [
         {
             "materia": "Psicología General",
             "codigos": [
@@ -182,5 +182,83 @@
             "duracion": "Cuatrimestral",
             "cargaHorariaSemanal": 6
         }
+    ],
+
+    "requisitoIdioma": [
+        {
+            "materia": "Inglés o Francés. Módulo I",
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 4
+        }
+    ],
+
+    "cicloFormacionProfesional": [
+        {
+            "materia": "Psicología Institucional",
+            "codigos": [
+                39,
+                144
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 6
+        },
+
+        {
+            "materia": "Psicología Educacional",
+            "codigos": [
+                41,
+                83
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 6
+        }
+    ],
+
+    "areaFormacionPedagogica": [
+        {
+            "materia": "Teorías de la Educación y Sistema Educativo Argentino",
+            "codigos": [
+                901
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 6
+        },
+
+        {
+            "materia": "Didáctica General",
+            "codigos": [
+                902
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 6
+        },
+
+        {
+            "materia": "Didáctica Especial de la Psicología",
+            "codigos": [
+                903
+            ],
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 6
+        },
+
+        {
+            "materia": "Didáctica Especial y Práctica de la Enseñanza",
+            "codigos": [
+                904
+            ],
+            "duracion": "Anual",
+            "cargaHorariaSemanal": 6
+        }
+    ],
+
+    "optativas": [
+        {
+
+        },
+        {
+
+        }
     ]
+
 }

@@ -31,7 +31,7 @@
         }
     ],
 
-    "correlativasCarrera": [
+    "carrera": [
         {
             "materia": "Teoría y Técnica de Terapia Ocupacional I",
             "correlativas": null
@@ -192,5 +192,22 @@
                 "Teoría y Técnica de Terapia Ocupacional V"
             ]
         }
+    ],
+    "requisitoIdioma": [
+        {
+            "materia": "Inglés o Francés. Módulo I",
+            "correlativas": null
+        }
+    ],
+
+    "optativas": [
+        {
+
+        },
+        {
+
+        }
     ]
+
+
 }

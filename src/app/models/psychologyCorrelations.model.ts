@@ -1,0 +1,8 @@
+import { SubjectsCorrelations } from "./subjectsCorrelations.model";
+
+export class PsychologySubjectsCorrelations implements SubjectsCorrelations {  
+    cbcCorrelations: { materia: string, correlativas: string[] | null }[] = [];
+    cicloGeneralCorrelations: { materia: string, correlativas: string[] | null }[] = [];
+    requisitoIdioma: { materia: string, correlativas: string[] | null }[] = [];
+    cicloProfesionalCorrelations: { materia: string, correlativas: string[] | null}[] = [];
+  }

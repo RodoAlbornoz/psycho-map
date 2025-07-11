@@ -31,7 +31,7 @@
         }
     ],
 
-    "materiasCarrera": [
+    "carrera": [
         {
             "materia": "Musicoterapia I",
             "codigos": [
@@ -255,6 +255,23 @@
             ],
             "duracion": "Cuatrimestral",
             "cargaHorariaSemanal": 6
+        }
+    ],
+
+    "requisitoIdioma": [
+        {
+            "materia": "Inglés o Francés. Módulo I",
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 4
+        }
+    ],
+
+    "optativas": [
+        {
+
+        },
+        {
+
         }
     ]
 }

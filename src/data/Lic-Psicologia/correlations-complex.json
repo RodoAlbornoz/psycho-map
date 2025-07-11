@@ -31,7 +31,7 @@
         }
     ],
 
-    "correlativasCarrera": [
+    "cicloFormacionGeneral": [
         {
             "materia": "Psicologia general",
             "correlativas": null
@@ -134,6 +134,102 @@
                 "Psicopatologia",
                 "Teoria y tecnica de exploracion y diagnostico psicologico. Modulo I"
             ]
+        }
+    ],
+
+    "requisitoIdioma": [
+        {
+            "materia": "Ingles o Frances. Modulo I",
+            "correlativas": [
+                "Psicologia general",
+                "Psicoanalisis Freud"
+            ]
+        },
+
+        {
+            "materia": "Ingles o Frances. Modulo II",
+            "correlativas": [
+                "Ingles o Frances. Modulo I",
+                "Psicologia general",
+                "Psicoanalisis Freud"
+            ]
+        }
+    ],
+
+    "cicloFormacionProfesional": [
+        {
+            "materia": "Psicologia etica y derechos humanos ",
+            "correlativas": [
+                "Psicologia social",
+                "Historia de la psicologia"
+            ]
+        },
+
+        {
+            "materia": "Psicologia institucional",
+            "correlativas": [
+                "Teoria y Tecnica de grupos"
+            ]
+        },
+
+        {
+            "materia": "Psicologia educacional",
+            "correlativas": [
+                "Salud publica y salud mental",
+                "Psicologia evolutiva adolescencia"
+            ]
+        },
+
+        {
+            "materia": "Psicologia del trabajo",
+            "correlativas": [
+                "Salud publica y salud mental",
+                "Teoria y tecnica de grupos",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo II"
+            ]
+        },
+
+        {
+            "materia": "Clinica psicologica y psicoterapias: Clinica de adultos",
+            "correlativas": [
+                "Psicopatología",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo I",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo II"
+            ]
+        },
+
+        {
+            "materia": "Psicologia juridica",
+            "correlativas": [
+                "Psicopatologia",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo I",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo II"
+            ]
+        },
+
+        {
+            "materia": "Clinica psicologica y psicoterapias: Psicoterapias, Emergencias e Interconsultas",
+            "correlativas": [
+                "Psicopatología",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo I",
+                "Teoria y tecnica de exploracion y diagnóstico psicologico. Modulo II"
+            ]
+        },
+
+        {
+            "materia": "Practica profesional y de investigacion",
+            "correlativas": [
+                "Salud publica y salud mental"
+            ]
+        }
+    ],
+
+    "optativas": [
+        {
+
+        },
+        {
+
         }
     ]
 }

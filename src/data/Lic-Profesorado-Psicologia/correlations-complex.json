@@ -31,7 +31,7 @@
         }
     ],
 
-    "correlativasCarrera": [
+    "cicloFormacionGeneral": [
         {
             "materia": "Psicología General",
             "correlativas": null
@@ -134,6 +134,69 @@
                 "Psicopatología",
                 "Teoría y Técnica de Exploración y Diagnóstico Psicológico. Módulo I"
             ]
+        }
+    ],
+
+    "requisitoIdioma": [
+        {
+            "materia": "Inglés o Francés. Módulo I",
+            "correlativas": [
+                "Psicología General",
+                "Psicoanálisis Freud"
+            ]
+        }
+    ],
+
+    "cicloFormacionProfesional": [
+        {
+            "materia": "Psicología Institucional",
+            "correlativas": [
+                "Teoría y Técnica de Grupos",
+                "Salud Pública y Salud Mental"
+            ]
+        },
+
+        {
+            "materia": "Psicología Educacional",
+            "correlativas": [
+                "Teoría y Técnica de Grupos",
+                "Salud Pública y Salud Mental"
+            ]
+        }
+    ],
+
+    "areaFormacionPedagogica": [
+        {
+            "materia": "Teorías de la Educación y Sistema Educativo Argentino",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Didáctica General",
+            "correlativas": null
+        },
+
+        {
+            "materia": "Didáctica Especial de la Psicología",
+            "correlativas": [
+                "Didáctica General"
+            ]
+        },
+
+        {
+            "materia": "Didáctica Especial y Práctica de la Enseñanza",
+            "correlativas": [
+                "Didáctica Especial de la Psicología"
+            ]
+        }
+    ],
+
+    "optativas": [
+        {
+
+        },
+        {
+
         }
     ]
 }
