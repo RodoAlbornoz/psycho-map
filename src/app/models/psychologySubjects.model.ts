@@ -7,6 +7,9 @@ export class PsychologySubjects implements SubjectsDegree {
     cicloProfesionalSubjects: { materia: string, duracion: string, cargaHorariaSemanal: number }[] = [];
 
     mapSubjectsToNodes() {
-        return this.cicloGeneralSubjects.map(subject => ({ id: subject.materia, label: subject.materia }));
+        return [
+            ...this.cicloGeneralSubjects.map(subject => ({ id: subject.materia, label: subject.materia })), 
+            ...this.cbcSubjects.map(subject => ({ id: subject.materia, label: subject.materia }))
+        ]
     }
 }

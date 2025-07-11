@@ -1,12 +1,7 @@
 <ngx-graph
-	[view]="[1500, 1500]"
+	[view]="[1300, 1300]"
 	[links]="links"
 	[nodes]="nodes"
-	[layout]="'dagre'"
-	[draggingEnabled]="true"
-	[zoomLevel]="1"
-	[enableZoom]="true"
-	[autoCenter]="true"
 	[autoZoom]="true">
 
     <ng-template #nodeTemplate let-node>
@@ -26,27 +21,15 @@
 		<svg:g class="edge">
 			<svg:path
 				class="line"
-				stroke-width="2"
-				marker-end="url(#arrow)"
+				stroke-width="5"
 			></svg:path>
-			<svg:text class="edge-label" text-anchor="middle">
-			<textPath
-				class="text-path"
-				[attr.href]="'#' + link.id"
-				[style.dominant-baseline]="link.dominantBaseline"
-				startOffset="50%"
-			>
-				{{link.label}}
-			</textPath>
+			<svg:text class="edge-label">
 			</svg:text>
 		</svg:g>
       <svg:g
 			class="linkMidpoint"
 			*ngIf="link.midPoint"
-			[attr.transform]="'translate(' + (link.midPoint.x) + ',' + (link.midPoint.y) + ')'"
       >
-			<ellipse rx="30" ry="10" />
-			<svg:text alignment-baseline="central">{{ link.data.linkText }}</svg:text>
       </svg:g>
     </ng-template>
 </ngx-graph>

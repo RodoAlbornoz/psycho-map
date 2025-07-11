@@ -7,7 +7,7 @@ import { PsychologySubjects } from '../models/psychologySubjects.model';
 import { PsychologySubjectsCorrelations } from '../models/psychologyCorrelations.model';
 
 let subjectsPsychology: PsychologySubjects = new PsychologySubjects();
-// subjectsPsychology.cbcSubjects = subjects.cbc;
+subjectsPsychology.cbcSubjects = subjects.cbc;
 subjectsPsychology.cicloGeneralSubjects = subjects.materiasCarrera;
 /*
 subjectsPsychology.requisitoIdioma = subjects.requisitoIdioma;
@@ -15,7 +15,7 @@ subjectsPsychology.cicloProfesionalSubjects = subjects.cicloProfesional;
 */
 
 let subjectsCorrelationsPsychology: PsychologySubjectsCorrelations = new PsychologySubjectsCorrelations();
-//subjectsCorrelationsPsychology.cbcCorrelations = correlations.cbc;
+subjectsCorrelationsPsychology.cbcCorrelations = correlations.cbc;
 subjectsCorrelationsPsychology.cicloGeneralCorrelations = correlations.correlativasCarrera;
 /*
 subjectsCorrelationsPsychology.requisitoIdioma = correlations.requisitoIdioma;
