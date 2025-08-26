@@ -135,5 +135,26 @@
                 "Teoria y tecnica de exploracion y diagnostico psicologico. Modulo I"
             ]
         }
-    ]
+    ],
+
+    "requisitoIdioma": [
+        {
+            "materia": "Ingles o Frances. Modulo I",
+            "correlativas": [
+                "Psicologia general",
+                "Psicoanalisis Freud"
+            ]
+        },
+
+        {
+            "materia": "Ingles o Frances. Modulo II",
+            "correlativas": [
+                "Ingles o Frances. Modulo I",
+                "Psicologia general",
+                "Psicoanalisis Freud"
+            ]
+        }
+    ],
+
+    "optativas": []
 }

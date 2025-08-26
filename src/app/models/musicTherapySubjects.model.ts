@@ -1,10 +1,10 @@
 import { SubjectsDegree } from "./subjectsDegree.model";
 
-export class musicTherapySubjects implements SubjectsDegree {  
+export class MusicTherapySubjects implements SubjectsDegree {  
     cbcSubjects: { materia: string, cargaHorariaSemanal: number }[] = [];
     cicloGeneralSubjects: { materia: string, cargaHorariaSemanal: number }[] = [];
     requisitoIdioma: { materia: string, duracion: string, cargaHorariaSemanal: number }[] = [];
-    cicloProfesionalSubjects: { materia: string, duracion: string, cargaHorariaSemanal: number }[] = [];
+    //cicloProfesionalSubjects: { materia: string, duracion: string, cargaHorariaSemanal: number }[] = [];
 
     mapSubjectsToNodes() {
         return [

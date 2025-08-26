@@ -199,5 +199,16 @@
                 "Taller de instrumentos de percusión"
             ]
         }
-    ]
+    ],
+
+    "requisitoIdioma": [
+        {
+            "materia": "Inglés o Francés. Módulo I",
+            "correlativas": [
+                "Musicoterapia I"
+            ]
+        }
+    ],
+
+    "optativas": []
 }

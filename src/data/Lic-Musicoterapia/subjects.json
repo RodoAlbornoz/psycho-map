@@ -256,5 +256,15 @@
             "duracion": "Cuatrimestral",
             "cargaHorariaSemanal": 6
         }
-    ]
+    ],
+
+    "requisitoIdioma": [
+        {
+            "materia": "Inglés o Francés. Módulo I",
+            "duracion": "Cuatrimestral",
+            "cargaHorariaSemanal": 4
+        }
+    ],
+
+    "optativas": []
 }

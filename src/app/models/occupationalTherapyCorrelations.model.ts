@@ -1,10 +1,10 @@
 import { SubjectsCorrelations } from "./subjectsCorrelations.model";
 
-export class occupationalTherapyCorrelations implements SubjectsCorrelations {  
+export class OccupationalTherapyCorrelations implements SubjectsCorrelations {  
 	cbcCorrelations: { materia: string, correlativas: string[] | null }[] = [];
 	cicloGeneralCorrelations: { materia: string, correlativas: string[] | null }[] = [];
 	requisitoIdioma: { materia: string, correlativas: string[] | null }[] = [];
-	cicloProfesionalCorrelations: { materia: string, correlativas: string[] | null}[] = [];
+	//cicloProfesionalCorrelations: { materia: string, correlativas: string[] | null}[] = [];
 
 	mapCorrelationsToLinks() {
 		return this.cicloGeneralCorrelations
